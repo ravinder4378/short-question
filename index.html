@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Are You Short?</title>
+  <style>
+    body {
+      background: linear-gradient(to top left, #f5ceec, #e0c3fc);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .yes-btn {
+      background-color: #ff7675;
+      color: white;
+    }
+
+    .no-btn {
+      background-color: #74b9ff;
+      color: white;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Are you short? 🤔</h1>
+
+  <div class="buttons">
+    <button class="yes-btn" onclick="location.href='yes.html'">Yes</button>
+    <button class="no-btn" onclick="location.href='no.html'">No</button>
+  </div>
+
+</body>
+</html>
